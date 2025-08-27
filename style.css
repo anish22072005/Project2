@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-/* Cake layers */
+
 .layer {
   width: 180px;
   height: 50px;
@@ -44,7 +44,7 @@ body {
   background: #e63946;
 }
 
-/* Plate */
+
 .plate {
   width: 200px;
   height: 20px;
@@ -55,7 +55,7 @@ body {
   align-items: center;
 }
 
-/* Multiple candles */
+
 .candles {
   display: flex;
   gap: 20px;
@@ -85,7 +85,7 @@ body {
   opacity: 1;
 }
 
-/* Fade out flame slowly when checkbox is checked */
+
 #blow:checked ~ .container .flame {
   opacity: 0;
   animation: none;
@@ -93,7 +93,7 @@ body {
 
 
 
-/* When checkbox is checked, fade out flame */
+
 #blow:checked ~ .container .flame {
   opacity: 0;
   visibility: hidden;
@@ -112,7 +112,7 @@ body {
   }
 }
 
-/* Sprinkles */
+
 .sprinkle {
   width: 6px;
   height: 6px;
@@ -157,13 +157,13 @@ body {
   transform: translateX(-50%);
 }
 
-/* Balloon colors */
+
 .red { background: #e74c3c; left: 10%; animation-delay: 0s; }
 .blue { background: #3498db; left: 30%; animation-delay: 2s; }
 .green { background: #2ecc71; left: 50%; animation-delay: 4s; }
 .yellow { background: #f1c40f; left: 70%; animation-delay: 6s; }
 
-/* Balloon animation */
+
 @keyframes floatUp {
   0% {
     bottom: -50px;
@@ -180,7 +180,7 @@ body {
   }
 }
  
-/* Button style */
+
 .blow-button {
 justify-content: center;
   display: flex;
@@ -198,7 +198,7 @@ justify-content: center;
   background: #e84118;
 }
 
-/* Flames hidden when checkbox is checked */
+
 #blow:checked ~ .container .flame {
   display: none;
 }
@@ -216,12 +216,12 @@ justify-content: center;
   pointer-events: none;
 }
 
-/* When checkbox is checked, show & animate smoke */
+
 #blow:checked ~ .container .smoke {
   animation: smokeRise 2s ease-out forwards;
 }
 
-/* Smoke animation keyframes */
+
 @keyframes smokeRise {
   0% {
     opacity: 0.6;
@@ -236,5 +236,6 @@ justify-content: center;
     transform: translateX(-50%) translateY(-30px) scale(1.3);
   }
 }
+
 
 
